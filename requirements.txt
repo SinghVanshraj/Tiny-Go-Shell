@@ -1,0 +1,19 @@
+Tiny-Go-Shell Requirements
+
+1️⃣ Go Programming Language
+Install Go 1.21 or higher: https://golang.org/dl/
+
+2️⃣ Operating System
+Recommended: Linux (Ubuntu)
+If on Windows, WSL (Windows Subsystem for Linux) with Ubuntu is required:
+https://learn.microsoft.com/en-us/windows/wsl/install
+
+3️⃣ Dependencies
+This project uses only Go's standard library (no external packages)
+
+4️⃣ Run Instructions
+In terminal:
+  go run main.go
+or build:
+  go build -o tiny-shell
+  ./tiny-shell
